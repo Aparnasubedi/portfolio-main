@@ -9,6 +9,7 @@ import React from 'react';
 import styles from './Contact.module.scss';
 import { Link } from '../Link/Link';
 import { variants } from '../../assets/js/variants';
+import about_me from '../../assets/about_me.jpg';
 
 export const Contact = () => {
   const ref = React.useRef();
@@ -28,6 +29,8 @@ export const Contact = () => {
       ref={ref}
     >
       <div className={styles.contact_header}>
+      <img src={about_me} alt="" width={250}/>
+
         <motion.h1
           variants={variants.textVariants}
           className={styles.contact_title}
@@ -54,6 +57,7 @@ export const Contact = () => {
         <div className={styles.contact_websites}>
           <Link name={'LinkedIn'} href={'https://www.linkedin.com/in/aparnasubedi3dartist/'} />
           <Link name={'Github'} href={'https://github.com/Aparnasubedi'} />
+          <Link name={'Artstation'} href={'https://aparna.artstation.com/'}/>
         </div>
       </motion.div>
     </motion.section>

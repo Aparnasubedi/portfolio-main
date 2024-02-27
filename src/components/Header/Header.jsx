@@ -9,6 +9,7 @@ import {
 import React from 'react';
 import styles from './Header.module.scss';
 import { variants } from '../../assets/js/variants';
+import Resume from '../../assets/Resume.pdf'
 
 export const Header = () => {
   const { scrollY } = useScroll();
@@ -67,11 +68,13 @@ export const Header = () => {
         <ul className={styles.nav_links}>
           <NavLink title={'home'} href={'#home'} scroll={0} />
           <NavLink title={'projects'} href={'#projects'} scroll={900} />
+          <a href={Resume} target='_blank' className={styles.nav_link}>Resume</a>
           <NavLink
             title={'about me & contact'}
             href={'#aboutme'}
             scroll={7000}
           />
+          
         </ul>
       </nav>
     </motion.header>

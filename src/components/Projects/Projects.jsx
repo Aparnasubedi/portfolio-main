@@ -56,7 +56,7 @@ export const Projects = () => {
           tags={['Autodesk Maya,', 'Realistic Environment']}
           title={'Hyper realstic 3d art'}
           description={`A candle light dinner set built with Autodesk maya and Arnold. The viewer can view this realistic 3d art in 3D. This project is made using Autodesk Maya, Photoshop`}
-          website={'https://aparna.artstation.com/'}
+          website={'https://aparna.artstation.com/projects/9NDE0O'}
           img={images.candle_light_dinner}
           alt={'A candle light dinner'}
         />
@@ -67,10 +67,10 @@ export const Projects = () => {
             windowSize[0] >= 680 ? styles.project_uneven : '',
           ].join(' ')}
           translateValue={windowSize[0] >= 680 ? translateValue : 0}
-          tags={['Autodesk Maya,', 'Realistic Environment']}
+          tags={['Autodesk Maya,','Realistic Environment,','Peace']}
           title={'Buddha Statue'}
-          description={`A simple fake store React application made to practice routing, Jest testing and using CSS modules. It allows users to log in through Google, browse the store catalog, add items to cart and store that information in the Firebase database. I wanted the design to be simple yet effective.`}
-          website={'https://aparna.artstation.com/'}
+          description={`A 3D nature made using Autodesk Maya and Vray.`}
+          website={'https://aparna.artstation.com/projects/X1RnVy'}
           img={images.final_02}
           alt={'Buddha statue'}
         />
@@ -105,12 +105,12 @@ export const Projects = () => {
             windowSize[0] >= 680 ? styles.project_uneven : '',
           ].join(' ')}
           translateValue={windowSize[0] >= 680 ? translateValue : 0}
-          tags={['React', 'Firebase', 'Vite', 'CSS']}
-          title={`Where's waldo?`}
-          description={`A Stardew Valley themed Where's Waldo type of game made with React and Firebase. The user must find three hidden characters in the shortest time possible. They can then submit their score and name to the leaderboard which is stored in the Firebase. I wanted to recreate the pixel art vibe of the game while keeping things plain and simple.`}
-          website={'https://Aparna.github.io/wheres-waldo/'}
-          img={images.wheresWaldo}
-          alt={'where is waldo game screenshot'}
+          tags={['2D game','gallaxy win']}
+          title={`Galaxy win `}
+          description={`Galaxy win is a 2D Shooter game. The user must kill all the monster characters in the shortest time possible. This will update their score and name to the scoreboard which is stored in the Firebase.`}
+          website={'https://aparnasubedi93.itch.io/2d-shooter'}
+          img={images.game_shooter}
+          alt={'2D Shooter game '}
         />
 
         <motion.div
@@ -126,46 +126,30 @@ export const Projects = () => {
             Want to see more?
           </motion.h3>
           <motion.p variants={variants.textVariants}>
-            If you&rsquo;d like to see more design-oriented projects, you can
+            If you&rsquo;d like to see more creative 3D projects, you can
             view my{' '}
             <Link
-              href="https://Aparna.github.io/restaurant/"
-              name={'Pure Cove Restaurant site'}
+              href="https://aparna.artstation.com/"
+              name={'Artstation'}
               label={'Check out the Pure Cove Restaurant site'}
             />
-            ,{' '}
-            <Link
-              href="https://Aparna.github.io/admin-dashboard/"
-              name={'Admin Dashboard'}
-              label={'Check out the Admin Dashboard site'}
-            />{' '}
-            or{' '}
-            <Link
-              href="https://Aparna.github.io/cv-project/"
-              name={'the CV Creator'}
-              label={'Check out the CV Creator site'}
-            />
+
             .
           </motion.p>
           <motion.p variants={variants.textVariants}>
             If you want to play some of the games I&rsquo;ve made, you can check
             out my{' '}
             <Link
-              href="https://Aparna.github.io/memory-card/"
-              name={'Memory Card'}
-              label={'Check out the Memory Card game'}
+              href="https://itch.io/dashboard"
+              name={'Itch Dashboard'}
+              label={'Itch dashbord'}
             />
             ,{' '}
-            <Link
-              href="https://Aparna.github.io/battleship/"
-              name={'Battleship'}
-              label={'Check out Battleship game'}
-            />{' '}
             or{' '}
             <Link
-              href="https://Aparna.github.io/tic-tac-toe/"
-              name={'Tic-Tac-Toe'}
-              label={'Check out the Tic-Tac-Toe game'}
+              href="https://aparnasubedi93.itch.io/solar-system-11"
+              name={'Solar_system'}
+              label={'solar_system'}
             />{' '}
             apps.
           </motion.p>
