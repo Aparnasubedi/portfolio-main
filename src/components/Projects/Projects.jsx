@@ -53,11 +53,12 @@ export const Projects = () => {
       <div className={styles.projects_grid} ref={scrollRef}>
         <Project
           classes={styles.project}
-          tags={['React', 'Firebase', 'Vite', 'SCSS', 'CSS modules']}
+          tags={['Autodesk Maya,', 'Realistic Environment']}
           title={'Hyper realstic 3d art'}
-          description={`A candle light dinnr set built with Autodesk maya and Arnold. The viewer can view this realistic 3d art in 3D. This project is made using Autodesk Maya, Photoshop`}
+          description={`A candle light dinner set built with Autodesk maya and Arnold. The viewer can view this realistic 3d art in 3D. This project is made using Autodesk Maya, Photoshop`}
+          website={'https://aparna.artstation.com/'}
           img={images.candle_light_dinner}
-          alt={'twitter clone page screenshot'}
+          alt={'A candle light dinner'}
         />
 
         <Project
@@ -66,12 +67,12 @@ export const Projects = () => {
             windowSize[0] >= 680 ? styles.project_uneven : '',
           ].join(' ')}
           translateValue={windowSize[0] >= 680 ? translateValue : 0}
-          tags={['React', 'Firebase', 'SCSS', 'Jest', 'CSS modules']}
-          title={'Shopping Cart'}
+          tags={['Autodesk Maya,', 'Realistic Environment']}
+          title={'Buddha Statue'}
           description={`A simple fake store React application made to practice routing, Jest testing and using CSS modules. It allows users to log in through Google, browse the store catalog, add items to cart and store that information in the Firebase database. I wanted the design to be simple yet effective.`}
-          website={'https://Aparna.github.io/shopping-cart/'}
-          img={images.shoppingCart}
-          alt={'shopping site front page'}
+          website={'https://aparna.artstation.com/'}
+          img={images.final_02}
+          alt={'Buddha statue'}
         />
 
         <Project
