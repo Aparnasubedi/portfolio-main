@@ -75,29 +75,9 @@ export const Projects = () => {
           alt={'Buddha statue'}
         />
 
-        <Project
-          classes={styles.project}
-          tags={['JavaScript', 'Webpack', 'SCSS']}
-          title={'Weather App'}
-          description={`Weather app that displays current forecast data for a given location. It was a part of the The Odin Project curriculum and I made it with a model-view-controller design pattern. I created the design in Figma using grids for the first time and I focused on making the design user-friendly and minimalistic.`}
-          website={'https://Aparna.github.io/weather/'}
-          img={images.candle_light_dinner}
-          alt={'weather app ui design'}
-        />
+      
 
-        <Project
-          classes={[
-            styles.project,
-            windowSize[0] >= 680 ? styles.project_uneven : '',
-          ].join(' ')}
-          translateValue={windowSize[0] >= 680 ? translateValue : 0}
-          tags={['JavaScript', 'Webpack', 'SCSS']}
-          title={'Todo List'}
-          description={`A simple task organizer made with pure JavaScript. The user can add projects, add and edit tasks, sort the tasks by due date, name and date of creation, delete taks and projects, set priority of the tasks and monitor their progress with a progress bar for each project.`}
-          website={'https://Aparna.github.io/todo-list/'}
-          img={images.todoList}
-          alt={'adding tasks at a todo list app'}
-        />
+      
 
         <Project
           classes={[

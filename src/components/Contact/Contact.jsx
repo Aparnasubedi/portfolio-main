@@ -9,7 +9,7 @@ import React from 'react';
 import styles from './Contact.module.scss';
 import { Link } from '../Link/Link';
 import { variants } from '../../assets/js/variants';
-import about_me from '../../assets/about_me.jpg';
+import about_me_updated from '../../assets/about_me_updated.jpg';
 
 export const Contact = () => {
   const ref = React.useRef();
@@ -29,7 +29,7 @@ export const Contact = () => {
       ref={ref}
     >
       <div className={styles.contact_header}>
-      <img src={about_me} alt="" width={250}/>
+      <img src={about_me_updated} alt="" width={250}/>
 
         <motion.h1
           variants={variants.textVariants}
