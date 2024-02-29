@@ -67,7 +67,8 @@ export const Header = () => {
       <nav>
         <ul className={styles.nav_links}>
           <NavLink title={'home'} href={'#home'} scroll={0} />
-          <NavLink title={'projects'} href={'#projects'} scroll={900} />
+          <NavLink title={'projects'} href={'#projects'} scroll={1000} />
+          <NavLink title={'Skills'} href={'Skills'} scroll={2200}/>
           <a href={Resume} target='_blank' className={styles.nav_link}>Resume</a>
           <NavLink
             title={'about me & contact'}

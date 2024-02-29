@@ -5,7 +5,7 @@ import final_02 from '../final_02.jpg'
 import todoList from '../todoList.webp';
 import game_shooter from '../game_shooter.jpg';
 import about_me from '../about_me.jpg';
-import wheresWaldo from '../wheresWaldo.webp';
+
 
 
 export const images = {
@@ -17,5 +17,5 @@ export const images = {
   shoppingCart,
   twitter,
   todoList,
-  wheresWaldo,
+ 
 };  
